@@ -1,0 +1,4 @@
+site_name: PostgreSQL Notes
+site_url: https://jamesdkelly88.github.io/postgres-notes
+theme:
+  name: material
