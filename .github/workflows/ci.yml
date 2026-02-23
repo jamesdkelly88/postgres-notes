@@ -24,5 +24,6 @@ jobs:
           path: ~/.cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+      # TODO: update data/versions.csv from https://endoflife.date/api/v1/products/postgresql/
+      - run: pip install mkdocs-material mkdocs-table-reader-plugin
       - run: mkdocs gh-deploy --force
