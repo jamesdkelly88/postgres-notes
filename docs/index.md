@@ -1,21 +1,7 @@
 ---
 tags:
-- Fix
+- draft
 ---
-# Welcome to MkDocs
+# PostgreSQL Notes
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This is my PostgreSQL notebook. This database engine has so many features and capabilities that I thought would be useful someday, so I started writing them down.
