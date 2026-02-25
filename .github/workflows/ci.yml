@@ -26,4 +26,5 @@ jobs:
             mkdocs-material-
       # TODO: update data/versions.csv from https://endoflife.date/api/v1/products/postgresql/
       - run: pip install mkdocs-material mkdocs-table-reader-plugin
+      - run: python ./scripts/versions.py
       - run: mkdocs gh-deploy --force
