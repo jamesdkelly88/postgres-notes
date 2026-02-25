@@ -10,7 +10,7 @@ To check the current version on your system:
 SELECT version();
 ```
 
-## Version Table[^1]
+## Version Table
 [^1]: [endoflife.date](https://endoflife.date/postgresql)
 
 {{ read_csv('data/versions.csv') }}

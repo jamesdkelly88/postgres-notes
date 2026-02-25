@@ -18,7 +18,7 @@ with open('docs/data/versions.csv', 'w', newline='') as csvfile:
         writer.writerow([
             r["label"],
             r["releaseDate"],
-            "N" if r["isEol"] else "Y",
+            "No" if r["isEol"] else "Yes",
             r["latest"]["name"],
             r["latest"]["date"],
             r["eolFrom"]
